@@ -23,3 +23,7 @@ def describe_filter_list():
     def should_give_strip_letters_from_1_2_a_b():
         """🧪 should take the list 1,2,'a','b' and give back 1,2"""
         assert list_filtering.filter_list([1, 2, "a", "b"]) == [1, 2]
+
+    def should_give_strip_letters_from_1_a_b_0_15():
+        """🧪 should take the list 1,'a','b',0,15 and give back 1,0,15"""
+        assert list_filtering.filter_list([1, "a", "b", 0, 15]) == [1, 0, 15]
