@@ -15,3 +15,7 @@ def describe_filter_list():
     def should_give_1_3_to_match_input():
         """🧪 should take the list 1,3 and give back 1,3"""
         assert list_filtering.filter_list([1, 3]) == [1, 3]
+
+    def should_give_4_2to_match_input():
+        """🧪 should take the list 4, 2 and give back 4, 2"""
+        assert list_filtering.filter_list([4, 2]) == [4, 2]
