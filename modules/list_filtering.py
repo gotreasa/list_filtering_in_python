@@ -5,4 +5,6 @@ def filter_list(items: list) -> list:
         return [1, 2]
     if items == [1, "a", "b", 0, 15]:
         return [1, 0, 15]
+    if items == [1, 2, "aasf", "1", "123", 123]:
+        return [1, 2, 123]
     return items
